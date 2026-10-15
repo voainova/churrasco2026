@@ -15,7 +15,6 @@ export default function HeroSection() {
           playsInline
           preload="auto"
           className="w-full h-full object-cover opacity-60"
-          poster="/assets/Arte_feed.jpeg"
         >
           <source src="/assets/video_churras.mp4" type="video/mp4" />
         </video>
@@ -101,7 +100,7 @@ export default function HeroSection() {
           whileTap={{ scale: 0.98 }}
           className="inline-flex items-center gap-2 px-8 py-4 md:px-10 md:py-5 bg-gradient-to-r from-[#d4a574] to-[#f4c984] text-black font-[Montserrat] font-bold text-base md:text-lg rounded-full shadow-lg shadow-[#d4a574]/30 hover:shadow-xl hover:shadow-[#d4a574]/40 transition-all duration-300"
         >
-          Garantir meu ingresso por R$ 84,00
+          Quero Garantir Já
           <span className="text-xl">→</span>
         </motion.a>
       </div>
