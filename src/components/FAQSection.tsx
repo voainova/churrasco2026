@@ -19,6 +19,10 @@ const faqItems = [
     question: 'Tem estacionamento no local?',
     answer: 'Sim! Há estacionamento gratuito no local, porém com número de vagas limitadas. Portanto, é importante chegar cedo para garantir sua vaga.',
   },
+  {
+    question: 'Já sou nucleado do Núcleo de Inovação e Negócios da Aemflo/CDL-SJ, tenho alguma vantagem?',
+    answer: 'Sim! Você poderá ter seu ingresso gratuitamente, tire suas dúvidas com a coordenação. Além disso, você pode apoiar o evento há um investimento especial para nucleado.',
+  },
 ];
 
 function FAQItem({ question, answer, isOpen, onClick }: { question: string; answer: string; isOpen: boolean; onClick: () => void }) {

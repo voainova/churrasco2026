@@ -38,25 +38,25 @@ export default function SocialProofSection() {
           viewport={{ once: true }}
           className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6 mb-16"
         >
-          <div className="md:col-span-1 md:row-span-2 rounded-2xl overflow-hidden border border-white/10">
+          <div className="rounded-2xl overflow-hidden border border-white/10 aspect-square">
             <img
               src="/assets/foto1.jpg"
               alt="Networking no evento"
-              className="w-full h-full object-cover min-h-[250px] md:min-h-[400px] hover:scale-105 transition-transform duration-500"
+              className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
             />
           </div>
-          <div className="rounded-2xl overflow-hidden border border-white/10">
+          <div className="rounded-2xl overflow-hidden border border-white/10 aspect-square">
             <img
               src="/assets/foto2.jpg"
               alt="Palestra no evento"
-              className="w-full h-full object-cover min-h-[190px] md:min-h-[190px] hover:scale-105 transition-transform duration-500"
+              className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
             />
           </div>
-          <div className="rounded-2xl overflow-hidden border border-white/10">
+          <div className="rounded-2xl overflow-hidden border border-white/10 aspect-square">
             <img
               src="/assets/foto3.jpg"
               alt="Churrasco gourmet"
-              className="w-full h-full object-cover min-h-[190px] md:min-h-[190px] hover:scale-105 transition-transform duration-500"
+              className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
             />
           </div>
         </motion.div>
