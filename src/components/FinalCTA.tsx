@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 
-const CTA_LINK = 'https://pensanoevento.com.br/teste';
+const CTA_LINK = 'https://www.pensanoevento.com.br/eventos/111779/churrasco-da-inovacao-e-negocios-2026-aniversario-do-nucleo';
 
 export default function FinalCTA() {
   return (
