@@ -7,13 +7,21 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
           {/* Brand */}
           <div className="text-center md:text-left">
-            <div className="flex items-center gap-2 justify-center md:justify-start mb-3">
-              <div className="w-8 h-8 rounded-full bg-gradient-to-br from-[#d4a574] to-[#f4c984] flex items-center justify-center text-black font-bold text-xs">
-                NI
-              </div>
-              <span className="font-[Montserrat] font-bold text-gray-900 text-lg">
-                Núcleo de Inovação e Negócios
-              </span>
+            <div className="flex items-center gap-3 justify-center md:justify-start mb-3">
+              <img
+                src="/assets/Logo Núcleo Inovação 2025 melhorada.png"
+                alt="Logo Núcleo Inovação 2025"
+                loading="lazy"
+                decoding="async"
+                className="h-10 w-auto object-contain"
+              />
+              <img
+                src="/assets/logo completa colorida Inovação e Negócios.jpeg"
+                alt="Logo Inovação e Negócios"
+                loading="lazy"
+                decoding="async"
+                className="h-10 w-auto object-contain rounded"
+              />
             </div>
             <p className="text-gray-600 text-sm">
               Conectando empreendedores e gerando oportunidades reais de negócio na Grande Florianópolis.
@@ -49,12 +57,14 @@ export default function Footer() {
               © 2026 Núcleo de Inovação e Negócios. Todos os direitos reservados.
             </p>
             <div className="flex items-center gap-4">
-              <div className="flex items-center gap-2">
-                <div className="w-6 h-6 rounded-full bg-gradient-to-br from-[#d4a574] to-[#f4c984] flex items-center justify-center text-black font-bold text-[8px]">
-                  NI
-                </div>
-                <span className="text-gray-500 text-xs">Inovação & Negócios</span>
-              </div>
+              <img
+                src="/assets/Logo Núcleo Inovação 2025 melhorada.png"
+                alt="Logo Núcleo Inovação"
+                loading="lazy"
+                decoding="async"
+                className="h-6 w-auto object-contain opacity-70"
+              />
+              <span className="text-gray-500 text-xs">Inovação & Negócios</span>
             </div>
           </div>
         </div>

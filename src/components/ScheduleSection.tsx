@@ -25,9 +25,25 @@ export default function ScheduleSection() {
               da Noite
             </span>
           </h2>
-          <p className="text-gray-400 text-lg">
+          <p className="text-gray-400 text-lg mb-8">
             Cada minuto pensado para maximizar sua experiência.
           </p>
+          {/* Event Art */}
+          <motion.div
+            initial={{ opacity: 0, scale: 0.95 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.6, delay: 0.2 }}
+            viewport={{ once: true }}
+            className="max-w-2xl mx-auto rounded-2xl overflow-hidden border border-[#d4a574]/20 shadow-2xl shadow-[#d4a574]/10"
+          >
+            <img
+              src="/assets/Arte_feed.jpeg"
+              alt="Arte oficial do evento Churrasco da Inovação e Negócios"
+              loading="lazy"
+              decoding="async"
+              className="w-full h-auto object-cover"
+            />
+          </motion.div>
         </motion.div>
 
         {/* Timeline */}
