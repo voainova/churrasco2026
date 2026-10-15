@@ -27,18 +27,17 @@ export default function Header() {
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logos */}
           <div className="flex items-center gap-3">
-            <div className="flex items-center gap-2">
-              <div className="w-8 h-8 md:w-10 md:h-10 rounded-full bg-gradient-to-br from-[#d4a574] to-[#f4c984] flex items-center justify-center text-black font-bold text-xs md:text-sm font-[Montserrat]">
-                NI
-              </div>
-              <span className="hidden sm:block text-white font-[Montserrat] font-bold text-sm md:text-base">
-                Núcleo Inovação
-              </span>
-            </div>
+            <img
+              src="/assets/Logo Núcleo Inovação 2025 melhorada.png"
+              alt="Logo Núcleo Inovação 2025"
+              className="h-10 md:h-12 w-auto object-contain"
+            />
             <div className="hidden md:block w-px h-8 bg-white/20" />
-            <span className="hidden md:block text-[#d4a574] font-[Montserrat] text-sm font-bold">
-              Inovação & Negócios
-            </span>
+            <img
+              src="/assets/logo completa colorida Inovação e Negócios.jpeg"
+              alt="Logo Inovação e Negócios"
+              className="hidden md:block h-10 md:h-12 w-auto object-contain rounded"
+            />
           </div>
 
           {/* Desktop CTA */}

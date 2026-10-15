@@ -6,13 +6,18 @@ const CTA_LINK = 'https://pensanoevento.com.br/teste';
 export default function HeroSection() {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      {/* Background Image with animated overlay */}
+      {/* Background Video with animated overlay */}
       <div className="absolute inset-0">
-        <img
-          src="https://image.qwenlm.ai/generated-images/76439b10-7bb6-4703-834d-10923cdd0a19/_result.png"
-          alt=""
+        <video
+          autoPlay
+          muted
+          loop
+          playsInline
           className="w-full h-full object-cover"
-        />
+          poster="/assets/Arte_feed.jpeg"
+        >
+          <source src="/assets/video_churras.MOV" type="video/mp4" />
+        </video>
         <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/60 to-[#0f0805]" />
         {/* Animated particles effect */}
         <div className="absolute inset-0 opacity-30">
