@@ -42,6 +42,8 @@ export default function SocialProofSection() {
             <img
               src="/assets/foto1.jpg"
               alt="Networking no evento"
+              loading="lazy"
+              decoding="async"
               className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
             />
           </div>
@@ -49,6 +51,8 @@ export default function SocialProofSection() {
             <img
               src="/assets/foto2.jpg"
               alt="Palestra no evento"
+              loading="lazy"
+              decoding="async"
               className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
             />
           </div>
@@ -56,6 +60,8 @@ export default function SocialProofSection() {
             <img
               src="/assets/foto3.jpg"
               alt="Churrasco gourmet"
+              loading="lazy"
+              decoding="async"
               className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
             />
           </div>

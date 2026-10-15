@@ -30,12 +30,17 @@ export default function Header() {
             <img
               src="/assets/Logo Núcleo Inovação 2025 melhorada.png"
               alt="Logo Núcleo Inovação 2025"
+              loading="eager"
+              fetchPriority="high"
+              decoding="async"
               className="h-10 md:h-12 w-auto object-contain"
             />
             <div className="hidden md:block w-px h-8 bg-white/20" />
             <img
               src="/assets/logo completa colorida Inovação e Negócios.jpeg"
               alt="Logo Inovação e Negócios"
+              loading="eager"
+              decoding="async"
               className="hidden md:block h-10 md:h-12 w-auto object-contain rounded"
             />
           </div>

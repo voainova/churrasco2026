@@ -39,6 +39,8 @@ export default function ScheduleSection() {
             <img
               src="/assets/Arte_feed.jpeg"
               alt="Arte oficial do evento Churrasco da Inovação e Negócios"
+              loading="lazy"
+              decoding="async"
               className="w-full h-auto object-cover"
             />
           </motion.div>

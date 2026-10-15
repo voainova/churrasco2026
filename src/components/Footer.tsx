@@ -11,11 +11,15 @@ export default function Footer() {
               <img
                 src="/assets/Logo Núcleo Inovação 2025 melhorada.png"
                 alt="Logo Núcleo Inovação 2025"
+                loading="lazy"
+                decoding="async"
                 className="h-10 w-auto object-contain"
               />
               <img
                 src="/assets/logo completa colorida Inovação e Negócios.jpeg"
                 alt="Logo Inovação e Negócios"
+                loading="lazy"
+                decoding="async"
                 className="h-10 w-auto object-contain rounded"
               />
             </div>
@@ -56,6 +60,8 @@ export default function Footer() {
               <img
                 src="/assets/Logo Núcleo Inovação 2025 melhorada.png"
                 alt="Logo Núcleo Inovação"
+                loading="lazy"
+                decoding="async"
                 className="h-6 w-auto object-contain opacity-70"
               />
               <span className="text-gray-500 text-xs">Inovação & Negócios</span>
