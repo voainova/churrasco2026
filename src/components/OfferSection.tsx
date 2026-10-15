@@ -4,7 +4,7 @@ import { Check, AlertTriangle } from 'lucide-react';
 const CTA_LINK = 'https://pensanoevento.com.br/teste';
 
 const included = [
-  'Palestra exclusiva com Fernando Atalaia',
+  'Acesso ao Painel Dinâmico com Empresários de Sucesso e Cases Reais',
   'Jantar completo (Churrasco Gourmet)',
   'Bebidas não alcoólicas inclusas',
   'Networking com 80 empresários e gestores',

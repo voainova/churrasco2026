@@ -51,11 +51,11 @@ export default function HeroSection() {
           transition={{ duration: 0.7, delay: 0.4 }}
           className="font-[Montserrat] font-black text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-white leading-tight mb-6"
         >
-          Conecte-se, Aprenda e{' '}
+          A Noite Mais{' '}
           <span className="bg-gradient-to-r from-[#d4a574] to-[#f4c984] bg-clip-text text-transparent">
-            Venda Mais
+            Exclusiva
           </span>{' '}
-          no Evento de Aniversário do Núcleo de Inovação
+          de Negócios e Gastronomia da Grande Florianópolis
         </motion.h1>
 
         {/* Subtitle */}
@@ -65,7 +65,7 @@ export default function HeroSection() {
           transition={{ duration: 0.6, delay: 0.6 }}
           className="text-gray-300 text-base md:text-lg lg:text-xl max-w-3xl mx-auto mb-10 leading-relaxed"
         >
-          Uma noite exclusiva com palestra estratégica de alto nível, networking qualificado e um churrasco gourmet assinado pelo Chef Rodrigo.
+          Conecte-se com 80 empresários de sucesso, participe de um Painel Dinâmico com cases reais e viva uma experiência gastronômica premium com o Chef Rodrigo. Sem palestras teóricas. Apenas o que funciona na prática.
         </motion.p>
 
         {/* Info Cards */}
@@ -101,7 +101,7 @@ export default function HeroSection() {
           whileTap={{ scale: 0.98 }}
           className="inline-flex items-center gap-2 px-8 py-4 md:px-10 md:py-5 bg-gradient-to-r from-[#d4a574] to-[#f4c984] text-black font-[Montserrat] font-bold text-base md:text-lg rounded-full shadow-lg shadow-[#d4a574]/30 hover:shadow-xl hover:shadow-[#d4a574]/40 transition-all duration-300"
         >
-          Quero garantir Já
+          Garantir meu ingresso por R$ 84,00
           <span className="text-xl">→</span>
         </motion.a>
       </div>
