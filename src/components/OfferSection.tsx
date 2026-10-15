@@ -1,10 +1,10 @@
 import { motion } from 'framer-motion';
 import { Check, AlertTriangle } from 'lucide-react';
 
-const CTA_LINK = 'https://pensanoevento.com.br/teste';
+const CTA_LINK = 'https://www.pensanoevento.com.br/eventos/111779/churrasco-da-inovacao-e-negocios-2026-aniversario-do-nucleo';
 
 const included = [
-  'Palestra exclusiva com Fernando Atalaia',
+  'Acesso ao Painel Dinâmico com Empresários de Sucesso e Cases Reais',
   'Jantar completo (Churrasco Gourmet)',
   'Bebidas não alcoólicas inclusas',
   'Networking com 80 empresários e gestores',

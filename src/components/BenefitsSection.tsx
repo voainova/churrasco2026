@@ -5,17 +5,17 @@ const benefits = [
   {
     icon: Users,
     title: 'Networking de Alto Nível',
-    description: 'Esteja na mesma sala que 80 empresários e gestores buscando parcerias.',
+    description: 'Esteja na mesma sala que 80 empresários e gestores da região que estão ativamente buscando parcerias e soluções.',
   },
   {
     icon: BookOpen,
-    title: 'Conhecimento que Gera Caixa',
-    description: 'Palestra exclusiva com Fernando Atalaia sobre Ecossistema Empresarial e estratégias para aumentar seu faturamento.',
+    title: 'Painel Dinâmico de Negócios',
+    description: 'Esqueça a teoria. Participe de um talk show interativo com cases reais de empresários de sucesso da Grande Florianópolis. Inovação e vendas na prática.',
   },
   {
     icon: ChefHat,
-    title: 'Experiência Gastronômica Premium',
-    description: 'Churrasco gourmet cuidadosamente preparado pelo Chef Rodrigo.',
+    title: 'Gastronomia Premium',
+    description: 'Churrasco gourmet cuidadosamente preparado pelo Chef Rodrigo, em um ambiente propício para conversas que fecham negócios.',
   },
 ];
 

@@ -1,10 +1,11 @@
 import { motion } from 'framer-motion';
 
 const scheduleItems = [
-  { time: '19h00', title: 'Recepção e Networking Inicial', description: 'Chegada, credenciamento e primeiro contato com os participantes.' },
-  { time: '19h15', title: 'Abertura Oficial e Celebração de Aniversário', description: 'Momento de celebração do aniversário do Núcleo de Inovação.' },
-  { time: '19h30', title: 'Palestra Principal com Fernando Atalaia', description: 'Ecossistema Empresarial: estratégias para aumentar seu faturamento.' },
-  { time: '20h30', title: 'Churrasco Gourmet pelo Chef Rodrigo + Open Networking', description: 'Experiência gastronômica premium com continuidade do networking.' },
+  { time: '19h00', title: 'Recepção e Feira de Negócios', description: 'Chegada, credenciamento e primeiro contato com os expositores e empresários.' },
+  { time: '19h15', title: 'Abertura Oficial e Celebração de Aniversário do Núcleo', description: 'Momento de celebração do aniversário do Núcleo de Inovação.' },
+  { time: '19h45', title: 'Painel: Empresas Inovadoras, Grandes Resultados Reais', description: 'Cases reais de empresários de sucesso. Pergunte, interaja e se conecte.' },
+  { time: '20h30', title: 'Apresentação de cases de Sucesso', description: 'Momento exclusivo para conhecer histórias e resultados de empresas da região.' },
+  { time: '20h45', title: '🥩 Churrasco Gourmet pelo Chef Rodrigo + Open Networking', description: 'Experiência gastronômica premium com continuidade do networking.' },
 ];
 
 export default function ScheduleSection() {
