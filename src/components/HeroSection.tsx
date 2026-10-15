@@ -16,6 +16,7 @@ export default function HeroSection() {
           className="w-full h-full object-cover opacity-60"
           poster="/assets/Arte_feed.jpeg"
         >
+          <source src="/assets/video_churras.MOV" type="video/quicktime" />
           <source src="/assets/video_churras.MOV" type="video/mp4" />
         </video>
         <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/60 to-[#0f0805]" />
