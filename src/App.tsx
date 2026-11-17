@@ -6,6 +6,7 @@ import SpeakersSection from './components/SpeakersSection';
 import ScheduleSection from './components/ScheduleSection';
 import TargetAudienceSection from './components/TargetAudienceSection';
 import OfferSection from './components/OfferSection';
+import SponsorsSection from './components/SponsorsSection';
 import FAQSection from './components/FAQSection';
 import FinalCTA from './components/FinalCTA';
 import Footer from './components/Footer';
@@ -22,6 +23,7 @@ function App() {
         <ScheduleSection />
         <TargetAudienceSection />
         <OfferSection />
+        <SponsorsSection />
         <FAQSection />
         <FinalCTA />
       </main>
