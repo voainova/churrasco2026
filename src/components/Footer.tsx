@@ -32,7 +32,7 @@ export default function Footer() {
           <div className="text-center">
             <p className="font-[Montserrat] font-bold text-gray-900 mb-1">Local do Evento</p>
             <p className="text-gray-600 text-sm">AEMFLO / CDL São José-SC</p>
-            <p className="text-gray-600 text-sm">05 de Novembro de 2026, às 19h00</p>
+            <p className="text-gray-600 text-sm">03 de Dezembro de 2026, às 19h00</p>
           </div>
 
           {/* Contact */}
