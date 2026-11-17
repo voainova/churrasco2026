@@ -38,7 +38,7 @@ export default function FinalCTA() {
           </motion.a>
 
           <p className="mt-6 text-gray-500 text-sm">
-            Apenas 80 vagas disponíveis • 05/Nov/2026 • AEMFLO/CDL São José-SC
+            Apenas 80 vagas disponíveis • 03/Dez/2026 • AEMFLO/CDL São José-SC
           </p>
         </motion.div>
       </div>
