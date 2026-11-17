@@ -55,11 +55,29 @@ export default function SpeakersSection() {
               </h3>
 
               {/* Description */}
-              <p className="text-gray-300 leading-relaxed text-base md:text-lg">
-                Neste aniversário do Núcleo, o protagonismo é dos empresários. Nosso formato é um{' '}
-                <span className="text-[#f4c984] font-semibold">Painel Dinâmico e Talk Show</span>{' '}
-                com empresários de sucesso e patrocinadores de destaque da região. Você vai ouvir cases reais, tirar dúvidas na hora e se conectar com quem está no palco e na plateia. É a sala certa, com as pessoas certas.
-              </p>
+              <div className="text-gray-300 leading-relaxed text-base md:text-lg">
+                <p>
+                  Talk Show exclusivo:{' '}
+                  <span className="text-[#f4c984] font-semibold">
+                    “2027: O Ano da Inovação na Grande Florianópolis”
+                  </span>
+                </p>
+                <p className="mt-4">Uma conversa rara e sem filtros com:</p>
+                <ul className="mt-2 space-y-1">
+                  <li>🎙️ Luan Tavares (Vice-Presidente AEMFLO)</li>
+                  <li>🎙️ Marcio Cavalcanti (Diretor de Inovação)</li>
+                  <li>🎙️ Macson Vieira (Coordenador do Núcleo de Inovação e Negócios)</li>
+                </ul>
+                <p className="mt-5 font-semibold text-white">O que você vai descobrir:</p>
+                <ul className="mt-2 space-y-2">
+                  <li>✅ As tendências de mercado que vão definir os próximos anos.</li>
+                  <li>✅ Como o associativismo está criando estratégias para aumentar sua produtividade e vendas.</li>
+                  <li>
+                    ✅ Ações práticas para você conquistar mais resultados e, consequentemente, mais tempo de qualidade
+                    para sua família.
+                  </li>
+                </ul>
+              </div>
             </div>
           </motion.div>
 
