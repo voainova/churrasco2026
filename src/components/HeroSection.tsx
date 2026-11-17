@@ -76,7 +76,7 @@ export default function HeroSection() {
         >
           <div className="flex items-center gap-2 px-4 py-2 bg-white/5 border border-white/10 rounded-lg backdrop-blur-sm">
             <Calendar className="w-4 h-4 md:w-5 md:h-5 text-[#d4a574]" />
-            <span className="text-white text-sm md:text-base font-medium">05/Nov/2026</span>
+            <span className="text-white text-sm md:text-base font-medium">03/Dez/2026</span>
           </div>
           <div className="flex items-center gap-2 px-4 py-2 bg-white/5 border border-white/10 rounded-lg backdrop-blur-sm">
             <Clock className="w-4 h-4 md:w-5 md:h-5 text-[#d4a574]" />
