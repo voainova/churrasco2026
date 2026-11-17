@@ -38,7 +38,7 @@ export default function ScheduleSection() {
             className="max-w-2xl mx-auto rounded-2xl overflow-hidden border border-[#d4a574]/20 shadow-2xl shadow-[#d4a574]/10"
           >
             <img
-              src="/assets/Arte_feed.jpeg"
+              src="/assets/Arte_feed_palestrantes.jpeg"
               alt="Arte oficial do evento Churrasco da Inovação e Negócios"
               loading="lazy"
               decoding="async"
