@@ -18,12 +18,12 @@ function App() {
       <main>
         <HeroSection />
         <SocialProofSection />
+        <SponsorsSection />
         <BenefitsSection />
         <SpeakersSection />
         <ScheduleSection />
         <TargetAudienceSection />
         <OfferSection />
-        <SponsorsSection />
         <FAQSection />
         <FinalCTA />
       </main>
